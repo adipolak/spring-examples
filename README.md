@@ -22,13 +22,13 @@ code .
 ``` 
 - Open "Maven Projects" from the file explorer view
 - Execute "wro4j:run" from the plugin wro4j in the tree explorer. This operation will generate the required css for appliction.
-- Open PetClinicApplication.java, find the code lens on the main function, click "Run" or "Debug" to trigger the application. 
+- Open PetClinicApplication.java, find the code lens on the main function in the editor window, click "Run" or "Debug" to trigger the application. 
 - After the application ready (See more information from the debug console), you can open http://localhost:8080 on your browser. Now a basic spring-boot application is ready. 
-- When you click "Pets" tab, it will show errors. We will complete the code to show all the pets in this lesson. 
+- When you click "Pets" tab, it will show errors on the webpage. We will complete the code to show all the pets in this lesson. 
 
 ### Edit code 
 
-The complete code is under spring-examples/complete/src/main/java/org/springframework/samples/petclinic/pet for your reference
+> The complete code is under spring-examples/complete/src/main/java/org/springframework/samples/petclinic/pet for your reference
 
 - Stop previous running/debugging session. 
 - Create folder `pet` under src/main/java/org/springframework/samples/petclinic
