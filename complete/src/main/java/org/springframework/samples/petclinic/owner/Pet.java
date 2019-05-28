@@ -85,7 +85,7 @@ public class Pet extends NamedEntity {
     }
 
     public String getOwnerName() {
-        return this.owner.getFirstName();
+        return this.owner.getFirstName() + ' ' + this.owner.getLastName();
     }
 
     protected void setOwner(Owner owner) {

@@ -9,15 +9,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * PetController
+ * MyPetController
  */
 @Controller("Controller example")
 public class MyPetController {
 
-    private final MyPetRepository pets; 
+    private final MyPetRepository pets;
 
-    public MyPetController(MyPetRepository clinicService) {
-        this.pets = clinicService;
+    public MyPetController(MyPetRepository petService) {
+        this.pets = petService;
     }
 
     @GetMapping("/pets.html")
